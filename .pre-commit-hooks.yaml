@@ -1,0 +1,15 @@
+- id: prototool-lint
+  name: 'prototool lint'
+  entry: 'run-prototool-lint.sh'
+  language: 'script'
+  files: '\.proto$'
+- id: prototool-format
+  name: 'prototool format'
+  entry: 'run-prototool-format.sh'
+  language: 'script'
+  files: '\.proto$'
+- id: prototool-format-fix
+  name: 'prototool format fix'
+  entry: 'run-prototool-format-fix.sh'
+  language: 'script'
+  files: '\.proto$'
