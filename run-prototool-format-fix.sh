@@ -1,2 +1,2 @@
 #!/usr/bin/env bash
-exec prototool format --overwrite --fix $@
+exec prototool format --overwrite --fix
