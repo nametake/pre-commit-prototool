@@ -10,7 +10,7 @@ Choose one of `prototool-lint`,`prototool-format` or `prototool-format-fix` and 
 
 ```yaml
 - repo: git@github.com:nametake/pre-commit-prototool.git
-  rev: master
+  rev: v0.1.0
   hooks:
     - id: prototool-format-fix
 ```
