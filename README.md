@@ -6,12 +6,13 @@ pre-commit-prototool
 Usage
 -----
 
-Choose one of `prototool-lint`,`prototool-format` or `prototool-format-fix` and add it to your`.pre-commit-config.yaml` as follows.
+Choose `prototool-lint`,`prototool-format` or `prototool-format-fix` and add it to your`.pre-commit-config.yaml` as follows.
 
 ```yaml
 - repo: git@github.com:nametake/pre-commit-prototool.git
   rev: v0.1.0
   hooks:
+    - id: prototool-lint
     - id: prototool-format-fix
 ```
 
